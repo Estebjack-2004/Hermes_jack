@@ -22,21 +22,42 @@
 </head>
 
 
-<body class="hold-transition sidebar-mini">
+    <body class="hold-transition sidebar-mini">
 <!-- Site wrapper -->
-<div class="wrapper">
+    <div class="wrapper">
 
-</div>
-
+    </div>
+</body>
+</html> 
 
 <!-- ./wrapper -->
 <?php
     include "modulos/cabezote.php";
     include "modulos/menu.php";
-    include "modulos/inicio.php";
-    include "modulos/footer.php";
+
+    if  (isset($_GET["ruta"])){
+        if ($_GET["ruta"] == "inicio" ||
+            $_GET["ruta"] == "Usuarios" ||
+            $_GET["ruta"] == "Permisos" ||
+            $_GET["ruta"] == "Inventario" ||
+            $_GET["ruta"] == "RecepcionTraspaso" ||
+            $_GET["ruta"] == "Reservas" ||
+            $_GET["ruta"] == "Inmediatas" ||
+            $_GET["ruta"] == "Autorizaciones" ||
+            $_GET["ruta"] == "SolicitudesVen" ||
+            $_GET["ruta"] == "Devoluciones" ||
+            $_GET["ruta"] == "Salidas" ||
+            $_GET["ruta"] == "Reportes"){
+
+            include "modulos/".$_GET["ruta"].".php";
+        }else{
+            include "modulos/404.php";
+        }
+
+    }else{
+        include "modulos/404.php";
+    }
+
+        include "modulos/footer.php";
+
     ?>
-
-    
-
-

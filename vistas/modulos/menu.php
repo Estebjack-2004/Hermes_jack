@@ -39,12 +39,12 @@
                 </a>
                 <ul class="nav nav-treeview">
                 <li class="nav-item">
-                    <a href="../../index.html" class="nav-link">
+                    <a href="Usuarios" class="nav-link">
                     <p>Usuarios</p>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="../../index2.html" class="nav-link">
+                    <a href="Permisos" class="nav-link">
                     <p>Permisos</p>
                     </a>
                 </li>
@@ -60,13 +60,13 @@
                 </a>
                 <ul class="nav nav-treeview">
                 <li class="nav-item">
-                    <a href="../../index.html" class="nav-link">
+                    <a href="Inventario" class="nav-link">
                     <p>Inventario</p>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="../../index2.html" class="nav-link">
-                    <p>Recepción/Traspaso</p>
+                    <a href="RecepcionTraspaso" class="nav-link">
+                    <p>Recepcion/Traspaso</p>
                     </a>
                 </li>
                 </ul>
@@ -81,12 +81,12 @@
                 </a>
                 <ul class="nav nav-treeview">
                 <li class="nav-item">
-                    <a href="../../index.html" class="nav-link">
+                    <a href="Reservas" class="nav-link">
                     <p>Reservas</p>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="../../index2.html" class="nav-link">
+                    <a href="Inmediatas" class="nav-link">
                     <p>Inmediatas</p>
                     </a>
                 </li>
@@ -102,31 +102,31 @@
                 </a>
                 <ul class="nav nav-treeview">
                 <li class="nav-item">
-                    <a href="index.html" class="nav-link">
+                    <a href="Autorizaciones" class="nav-link">
                     <p>Autorizaciones</p>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="index2.html" class="nav-link">
+                    <a href="SolicitudesVen" class="nav-link">
                     <p>Solicitudes Vencidas</p>
                     </a>
                 </li>
                 </ul>
             </li>
             <li class="nav-item">
-                    <a href="../layout/boxed.html" class="nav-link">
+                    <a href="Devoluciones" class="nav-link">
                     <i class="fas fa-undo-alt"></i>
                     <p>Devoluciones</p>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="docs/layout/boxed.html" class="nav-link">
+                    <a href="Salidas" class="nav-link">
                     <i class="fas fa-sign-out-alt"></i>
                     <p>Salidas</p>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="/layout/boxed.html" class="nav-link">
+                    <a href="Reportes" class="nav-link">
                     <i class="fas fa-chart-bar"></i>
                     <p>Reportes</p>
                     </a>
