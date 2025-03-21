@@ -11,10 +11,10 @@
         <!-- Sidebar user (optional) -->
         <div class="user-panel mt-3 pb-3 mb-3 d-flex">
             <div class="image">
-            <img src="vistas/dist/img/red guy.jpeg" class="img-circle elevation-2" alt="User Image">
+            <img src="vistas/dist/img/hungus.jpg" class="img-circle elevation-2" alt="User Image">
             </div>
             <div class="info">
-            <a href="#" class="d-block">Red Guy</a>
+            <a href="#" class="d-block">Hungus Fungus</a>
             </div>
         </div>
 
@@ -24,7 +24,7 @@
             <!-- Add icons to the links using the .nav-icon class
                 with font-awesome or any other icon font library -->
                 <li class="nav-item">
-                    <a href="../layout/boxed.html" class="nav-link">
+                    <a href="inicio" class="nav-link">
                     <i class="fas fa-home"></i>
                     <p>Inicio</p>
                     </a>
@@ -39,12 +39,12 @@
                 </a>
                 <ul class="nav nav-treeview">
                 <li class="nav-item">
-                    <a href="../../index.html" class="nav-link">
+                    <a href="usuarios" class="nav-link">
                     <p>Usuarios</p>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="../../index2.html" class="nav-link">
+                    <a href="permisos" class="nav-link">
                     <p>Permisos</p>
                     </a>
                 </li>
@@ -60,12 +60,12 @@
                 </a>
                 <ul class="nav nav-treeview">
                 <li class="nav-item">
-                    <a href="../../index.html" class="nav-link">
+                    <a href="inventario" class="nav-link">
                     <p>Inventario</p>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="../../index2.html" class="nav-link">
+                    <a href="recepcion" class="nav-link">
                     <p>Recepción/Traspaso</p>
                     </a>
                 </li>
@@ -81,12 +81,12 @@
                 </a>
                 <ul class="nav nav-treeview">
                 <li class="nav-item">
-                    <a href="../../index.html" class="nav-link">
+                    <a href="reservas" class="nav-link">
                     <p>Reservas</p>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="../../index2.html" class="nav-link">
+                    <a href="inmediatas" class="nav-link">
                     <p>Inmediatas</p>
                     </a>
                 </li>
@@ -102,31 +102,31 @@
                 </a>
                 <ul class="nav nav-treeview">
                 <li class="nav-item">
-                    <a href="index.html" class="nav-link">
+                    <a href="autorizaciones" class="nav-link">
                     <p>Autorizaciones</p>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="index2.html" class="nav-link">
+                    <a href="vencidas" class="nav-link">
                     <p>Solicitudes Vencidas</p>
                     </a>
                 </li>
                 </ul>
             </li>
             <li class="nav-item">
-                    <a href="../layout/boxed.html" class="nav-link">
+                    <a href="devoluciones" class="nav-link">
                     <i class="fas fa-undo-alt"></i>
                     <p>Devoluciones</p>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="docs/layout/boxed.html" class="nav-link">
+                    <a href="salidas" class="nav-link">
                     <i class="fas fa-sign-out-alt"></i>
                     <p>Salidas</p>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="/layout/boxed.html" class="nav-link">
+                    <a href="reportes" class="nav-link">
                     <i class="fas fa-chart-bar"></i>
                     <p>Reportes</p>
                     </a>
