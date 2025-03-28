@@ -24,44 +24,22 @@ session_start();
     <script src="vistas/dist/js/demo.js"></script> -->
 </head>
 
-<body class="hold-transition sidebar-mini login-page">
 
+<body class="hold-transition sidebar-mini">
+<!-- Site wrapper -->
+<div class="wrapper">
+
+</div>
+
+
+<!-- ./wrapper -->
 <?php
+    include "modulos/cabezote.php";
+    include "modulos/menu.php";
+    include "modulos/inicio.php";
+    include "modulos/footer.php";
+    ?>
+
     
-    if (isset($_SESSION["iniciarSesion"]) && $_SESSION["iniciarSesion"] == "ok") {
-        
-        echo '<script>
-            document.addEventListener("DOMContentLoaded", function(){
-                document.body.classList.remove("login-page");
-            });
-        </script>';
 
-        echo '<div class="wrapper">';
-        include "modulos/cabezote.php";
-        include "modulos/menu.php";
 
-        if (isset($_GET["ruta"])) {
-            if ($_GET["ruta"] == "inicio" ||
-                $_GET["ruta"] == "usuarios" ||
-                $_GET["ruta"] == "permisos" ||
-                $_GET["ruta"] == "inventario" ||
-                $_GET["ruta"] == "recepcion" ||
-                $_GET["ruta"] == "reservas" ||
-                $_GET["ruta"] == "inmediatas" ||
-                $_GET["ruta"] == "autorizaciones" ||
-                $_GET["ruta"] == "vencidas"||
-                $_GET["ruta"] == "devoluciones"||
-                $_GET["ruta"] == "salidas"||
-                $_GET["ruta"] == "salir"||
-                $_GET["ruta"] == "reportes") {
-                    include "modulos/".$_GET["ruta"].".php";
-                } else {
-                    include "modulos/404.php";
-                } 
-        }
-        include "modulos/footer.php";
-        echo'</div>';
-    }else{
-        include "modulos/login.php";
-    }
-?>
