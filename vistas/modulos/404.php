@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 <!-- Content Wrapper. Contains page content -->
 <div class="content-wrapper">
     <!-- Content Header (Page header) -->
@@ -67,4 +67,4 @@
         </section>
         <!-- /.content -->
     </div>
->>>>>>> ba59ce6ec2825a3a1eca2e6cc1d7886e4b8c4757
+
